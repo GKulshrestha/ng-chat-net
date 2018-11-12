@@ -25,7 +25,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "jQuery/jquery-3.2.1.slim.min.js",
+              "./bootstrap4/js/bootstrap.js"
+             
+            ]
           },
           "configurations": {
             "production": {

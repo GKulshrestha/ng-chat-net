@@ -1,0 +1,31 @@
+<div class="container ">
+  <div class="row margin-top25" >
+  <div class="col-md-4 height90vh border" >
+    <div>
+    <div class="row margin-left10px"> 
+    <label>{{myName}}Gaurav Kulshrestha</label>
+  </div>
+  <div class="row">
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#contacts">Contacts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#history">History</a>
+      </li>
+    </ul> 
+  </div>
+</div>
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade active" id="contacts" role="tabpanel" aria-labelledby="home-tab">
+      <app-contacts></app-contacts>
+    </div>
+    <div class="tab-pane fade" id="history" role="tabpanel" aria-labelledby="profile-tab">...</div>
+  </div>
+</div>
+</div>
+
+</div> 
+<div *ngFor="let chatBox of availableChatBoxes">
+  <app-chat-box></app-chat-box>
+</div>
